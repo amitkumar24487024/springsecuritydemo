@@ -14,5 +14,12 @@ public class HelloController {
 		System.out.println("implementing spring security");
 		return "Hello Spring Security";
 	}
+	
+	@GetMapping("/bye")
+	public String getBye() {
+		
+		System.out.println("implementing spring security");
+		return "Bye Spring Security";
+	}
 
 }
